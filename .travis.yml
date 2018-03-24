@@ -3,4 +3,4 @@ install:
     - git clone https://github.com/bats-core/bats-core.git
     - export PATH=${PWD}/bats-core:$PATH
 script:
-    - bats
+    - bats **/*.bats
