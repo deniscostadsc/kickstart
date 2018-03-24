@@ -1,0 +1,6 @@
+language: c
+install:
+    - git clone git clone https://github.com/bats-core/bats-core.git
+    - export PATH=${PWD}/bats-core:$PATH
+script:
+    - bats
